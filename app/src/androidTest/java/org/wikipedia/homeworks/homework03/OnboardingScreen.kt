@@ -6,7 +6,6 @@ import com.google.android.material.button.MaterialButton
 import com.google.android.material.tabs.TabLayout
 import org.wikipedia.views.AppTextView
 
-
 val mainImage = listOf(
     AppCompatImageView::class.java,
     "imageViewCentered"
