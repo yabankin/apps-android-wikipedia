@@ -22,7 +22,7 @@ data class Shape(val sideLength: Float, val sides: Int, val color: Color)
 // Проверка длины стороны в диапазоне
 class SideLengthMatcher(private val min: Float, private val max: Float) : TypeSafeMatcher<Shape>() {
     override fun describeTo(description: Description) {
-        description.appendText("side length between $min and $max")
+        description.appendText("длина стороны в диапазоне $min и $max")
     }
 
     override fun matchesSafely(shape: Shape): Boolean {
