@@ -26,6 +26,7 @@ object ExploreScreen : KScreen<ExploreScreen>() {
             itemType (::NewsCardViewItem)
             itemType (::SearchCardViewItem)
             itemType (::TopReadCardViewItem)
+            itemType (::InTheNewsCardItem)
 
         }
     )
